@@ -194,8 +194,8 @@ describe('accordion', function () {
       beforeEach(function () {
         var tpl =
           "<accordion>" +
-            "<accordion-group title=\"'title 1'\" is-open=\"open1\">Content 1</accordion-group>" +
-            "<accordion-group title=\"'title 2'\" is-open=\"open2\">Content 2</accordion-group>" +
+            "<accordion-group heading=\"title 1\" is-open=\"open1\">Content 1</accordion-group>" +
+            "<accordion-group heading=\"title 2\" is-open=\"open2\">Content 2</accordion-group>" +
             "</accordion>";
         element = angular.element(tpl);
         scope.open1 = false;
